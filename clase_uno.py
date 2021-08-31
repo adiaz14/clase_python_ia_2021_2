@@ -81,16 +81,63 @@ print(raiz)
 
 """
 Esto
-es un comentario de 
+es un comentario de
 parrafo
 """
 
+# Tipos de datos
 
+# String str
 
+a = "Hola Mundo"
+a = 'Hola Mundo'
+b = "I can't do it"
+c = 'Alias "Andres"'
 
+# Entero int
 
+a = 5
 
+# Decimal float
 
+a = 5.6
+
+# Booleano bool
+
+x = True
+y = False
+
+# Conversiones entre tipo de datos
+
+# Convertir de x a entero
+
+a = '3'
+y = int(a)
+print(y)
+print(type(y))
+
+# Convertir de x a decimal
+
+a = '3'
+y = float(a)
+print(y)
+print(type(y))
+
+# Convertir de x a string
+
+a = 3
+y = str(a)
+print(y)
+print(type(y))
+
+# Concatenaciones
+
+a = 'hola'
+b = 'mundo'
+c = a + ' ' + b
+
+a = 'hola'
+b = a * 5
 
 
 
